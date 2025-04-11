@@ -1,0 +1,35 @@
+{
+    "name": "@mpietrucha/collection",
+    "version": "0.0.1",
+    "repository": "mpietrucha/collection-js",
+    "license": "MIT",
+    "author": {
+        "name": "Michał Pietrucha",
+        "email": "michal.pietrucha@off-site.pl"
+    },
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs"
+        }
+    },
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "unbuild",
+        "dev": "unbuild --watch",
+        "format": "prettier . --write --ignore-unknown"
+    },
+    "prettier": "@mpietrucha/prettier",
+    "dependencies": {
+        "@mpietrucha/array": "^0.0.5"
+    },
+    "devDependencies": {
+        "@mpietrucha/prettier": "1.0.0",
+        "unbuild": "^3.3.1"
+    }
+}
