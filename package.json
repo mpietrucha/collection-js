@@ -26,10 +26,14 @@
     },
     "prettier": "@mpietrucha/prettier",
     "dependencies": {
-        "@mpietrucha/array": "^0.0.5"
+        "@mpietrucha/array": "^0.0.6",
+        "@mpietrucha/function": "^0.0.3",
+        "@mpietrucha/is": "^0.0.16",
+        "@mpietrucha/pipeline": "^1.0.7",
+        "@mpietrucha/pkg": "^0.0.12"
     },
     "devDependencies": {
         "@mpietrucha/prettier": "1.0.0",
-        "unbuild": "^3.3.1"
+        "unbuild": "^3.5.0"
     }
 }
